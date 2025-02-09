@@ -1,10 +1,11 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'ananke'
+# theme = 'ananke'
 # theme = 'hugo-theme-m10c'
-[params]
-    author = 'Bruno Ursino'
-    description = 'Bayesian Data Analysis 4 Drinking Water Quality'
-    avatar = 'avatar/ai_generated_chibi.png'
+theme = 'zen'
+# [params]
+#     author = 'Bruno Ursino'
+#     description = 'Bayesian Data Analysis 4 Drinking Water Quality'
+#     avatar = 'avatar/ai_generated_chibi.png'
     

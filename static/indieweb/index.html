@@ -19,10 +19,11 @@
         margin-top: 5rem;
         padding: 0;
       }
-      /* Adjust for smaller screens */
-      @media (max-width: 768px) {
+      /* Ensure no margin on smaller screens */
+      @media screen and (max-width: 600px) {
         body {
-          margin: 2rem auto;
+          margin: 0;
+          padding: 0; /* Reset padding just in case */
         }
       }
 

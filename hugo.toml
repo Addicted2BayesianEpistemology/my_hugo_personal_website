@@ -46,9 +46,6 @@ imageHeight = 240
   name = "CV"
   url = "/cv"
 
-  [[params.profileMode.buttons]]
-  name = "IndieWeb"
-  url = "/indieweb"
 
   [[params.socialIcons]]
   name = "LinkedIn"

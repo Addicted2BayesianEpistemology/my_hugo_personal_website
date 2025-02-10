@@ -1,11 +1,56 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-# theme = 'ananke'
-# theme = 'hugo-theme-m10c'
-theme = 'zen'
+title = 'Bruno Ursino'
+# theme = 'ananke' # https://themes.gohugo.io/themes/gohugo-theme-ananke/
+# theme = 'hugo-theme-m10c' # https://themes.gohugo.io/themes/hugo-theme-m10c/
+# theme = 'zen' # https://themes.gohugo.io/themes/hugo-theme-zen/
+theme = 'PaperMod' # https://themes.gohugo.io/themes/hugo-papermod/
+# m10c theme 
 # [params]
 #     author = 'Bruno Ursino'
 #     description = 'Bayesian Data Analysis 4 Drinking Water Quality'
 #     avatar = 'avatar/ai_generated_chibi.png'
-    
+# Zen theme
+# [params]
+#     name = 'Bruno Ursino'
+#     contact = 'bruno.ursino@polimi.it'
+#     description = 'Bayesian Data Analysis 4 Drinking Water Quality'
+#     avatar = 'avatar/ai_generated_chibi.png'    
+#     math = true
+#     logoPath = 'avatar/ai_generated_chibi.png'
+
+[params.profileMode]
+enabled = true
+title = "Bruno Ursino"
+subtitle = "I'm a PhD student doing Bayesian Data Analysis for Drinking Water Quality. My interests include **Bayesian statistics**, Physics Informed Neural Networks (**PINN**), Granular Activated Carbon (**GAC**) filtration, Fluorescence Excitation-Emission Matrices (**EEM**), and Disinfection Byproducts (**DBP**) formation."
+imageUrl = "avatar/ai_generated_chibi.png"
+imageTitle = "Bruno Ursino"
+imageWidth = 240
+imageHeight = 240
+
+  [[params.profileMode.buttons]]
+  name = "Posts"
+  url = "/posts"
+
+  [[params.profileMode.buttons]]
+  name = "CV"
+    url = "/cv"
+
+  [[params.profileMode.buttons]]
+  name = "GitHub"
+  url = "https://github.com/Addicted2BayesianEpistemology"
+
+  [[params.profileMode.buttons]]
+  name = "IndieWeb"
+  url = "/indieweb"
+
+
+# [[params.socialIcons]]
+# name = "<platform>"
+# url = "<link>"
+
+# [[params.socialIcons]]
+# name = "<platform 2>"
+# url = "<link2>"
+
+

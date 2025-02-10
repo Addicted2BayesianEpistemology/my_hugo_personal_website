@@ -32,7 +32,7 @@ showPoweredBy = false
 [params.profileMode]
 enabled = true
 title = "Bruno Ursino"
-subtitle = "I'm a PhD student doing Bayesian Data Analysis for Drinking Water Quality at PoliMI. My interests include **Bayesian statistics**, Physics Informed Neural Networks (**PINN**), Granular Activated Carbon (**GAC**) filtration, Fluorescence Excitation-Emission Matrices (**EEM**), and Disinfection Byproducts (**DBP**) formation."
+subtitle = "I'm a PhD student studying Bayesian Data Analysis for Drinking Water Quality at **POLI**MI. My interests include **Bayesian statistics**, Physics Informed Neural Networks (**PINN**), Granular Activated Carbon (**GAC**) filtration, Fluorescence Excitation-Emission Matrices (**EEM**), and Disinfection Byproducts (**DBP**) formation."
 imageUrl = "avatar/ai_generated_chibi.png"
 imageTitle = "Bruno Ursino"
 imageWidth = 240

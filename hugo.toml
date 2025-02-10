@@ -18,6 +18,12 @@ theme = 'PaperMod' # https://themes.gohugo.io/themes/hugo-papermod/
 #     avatar = 'avatar/ai_generated_chibi.png'    
 #     math = true
 #     logoPath = 'avatar/ai_generated_chibi.png'
+[params]
+defaultTheme = "dark"
+disableThemeToggle = true
+
+[assets]
+  favicon = "mathbbR_icon_fixed.ico"
 
 [params.profileMode]
 enabled = true

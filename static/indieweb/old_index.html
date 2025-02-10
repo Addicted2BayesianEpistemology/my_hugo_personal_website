@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My IndieWeb Homepage</title>
+  
+  <!-- IndieWeb Discovery Links -->
+  <!-- These let other sites know how to interact with yours -->
+  <link rel="webmention" href="https://example.com/webmention" />
+  <link rel="pingback" href="https://example.com/xmlrpc.php" />
+  <link rel="micropub" href="https://example.com/micropub" />
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+
+  <!-- Rel-me links to your other profiles so you can verify ownership -->
+  <link rel="me" href="https://mastodon.social/@yourusername" />
+  <link rel="me" href="https://github.com/yourusername" />
+
+  <!-- Basic Styling (Optional) -->
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 1200em;
+      width: 90%;
+      /* margin: 2em auto; */
+      line-height: 1.6;
+      margin: auto;
+      background-color: #02040c; /* Replace with desired color */
+    }
+
+    /* Defines a centered container with a max width, white background, and padding */
+    .container {
+      max-width: 40em;           /* Adjust to desired content width */
+      width: 90%;                 /* Ensures container is not too wide on large screens */
+      margin: 2em auto;          /* Centers horizontally with top/bottom spacing */
+      background-color: #ffffff; /* Container background color */
+      padding: 2em;              /* Space around content */
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    header img {
+      max-width: 150px;
+      border-radius: 50%;
+    }
+    .h-feed {
+      margin: 2em 0;
+    }
+    .h-entry {
+      max-width: 1200em;
+      border: 1px solid #ccc;
+      padding: 1em;
+      margin-bottom: 1em;
+      border-radius: 4px;
+    }
+    .h-entry h2 {
+      margin-top: 0;
+      max-width: 1200em;
+    }
+    .h-card {
+      max-width: 60em; /* Increase this value to make it wider */
+      width: 90%; /* Ensure responsiveness */
+      margin: 2em auto; /* Center it */
+      background-color: #000000; /* Optional: background color like .container */
+      padding: 2em; /* Optional: Add padding to match the .container look */
+      border-radius: 8px; /* Optional: Rounded edges */
+    }
+    footer {
+      text-align: center;
+      color: #888;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header / h-card: Your personal identity info -->
+  <header class="h-card">
+    <!-- Your photo: "u-photo" indicates a profile or avatar image -->
+    <img class="u-photo" src="https://example.com/your-photo.jpg" alt="Your Name" />
+
+    <!-- Your name: "p-name" is your displayed name -->
+    <h1 class="p-name">Your Name</h1>
+
+    <!-- Your website URL: "u-url" is your primary domain/profile link -->
+    <p>
+      <a class="u-url" rel="me" href="https://your-domain.com">
+        https://your-domain.com
+      </a>
+    </p>
+
+    <!-- A short note/bio: "p-note" is a snippet about you -->
+    <p class="p-note">
+      IndieWeb enthusiast, builder, and lover of open protocols.
+    </p>
+  </header>
+
+  <!-- Main content: h-feed container for your posts (h-entry) -->
+  <main class="h-feed" role="main">
+    <!-- A sample blog post or note: "h-entry" indicates a piece of content -->
+    <article class="h-entry">
+      <h2 class="p-name">My First IndieWeb Post</h2>
+      <!-- Publication date/time: "dt-published" is required for h-entry -->
+      <time class="dt-published" datetime="2025-02-10T10:00:00+00:00">February 10, 2025</time>
+
+      <!-- Content of the post: "e-content" indicates the main text -->
+      <div class="e-content">
+        <p>
+          Welcome to my IndieWeb-powered website! This is my very first post, 
+          where I say hello to the world. Feel free to send me a 
+          <a href="https://indieweb.org/Webmention">Webmention</a> or connect 
+          via any of my social links.
+        </p>
+      </div>
+    </article>
+
+    <!-- Another example post -->
+    <article class="h-entry">
+      <h2 class="p-name">Why I Love the IndieWeb</h2>
+      <time class="dt-published" datetime="2025-02-11T10:00:00+00:00">February 11, 2025</time>
+      <div class="e-content">
+        <p>
+          The IndieWeb is all about owning your content, controlling your data, 
+          and connecting with others using open standards. It's a great place 
+          to experiment, learn, and build the future of the social web.
+        </p>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Your Name. Proudly part of the 
+    <a href="https://indieweb.org/">IndieWeb</a>.
+  </footer>
+</body>
+</html>

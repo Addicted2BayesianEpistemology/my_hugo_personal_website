@@ -40,16 +40,19 @@ imageHeight = 240
 
   [[params.profileMode.buttons]]
   name = "CV"
-    url = "/cv"
-
-  [[params.profileMode.buttons]]
-  name = "GitHub"
-  url = "https://github.com/Addicted2BayesianEpistemology"
+  url = "/cv"
 
   [[params.profileMode.buttons]]
   name = "IndieWeb"
   url = "/indieweb"
 
+  [[params.socialIcons]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/bruno-ursino-045194198/"
+
+  [[params.socialIcons]]
+  name = "GitHub"
+  url = "https://github.com/Addicted2BayesianEpistemology"
 
 # [[params.socialIcons]]
 # name = "<platform>"

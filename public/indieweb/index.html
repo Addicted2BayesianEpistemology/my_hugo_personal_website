@@ -14,11 +14,17 @@
     }
 
     /* Setting the margins of the page */
-    body {
-      margin: 10em;
-      margin-top: 5em;
-      padding: 0;
-    }
+      body {
+        margin: 10rem;
+        margin-top: 5rem;
+        padding: 0;
+      }
+      /* Adjust for smaller screens */
+      @media (max-width: 768px) {
+        body {
+          margin: 2rem auto;
+        }
+      }
 
 
     </style>

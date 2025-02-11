@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <head>
     <meta charset="UTF-8" />
     <title>My IndieWeb Homepage</title>
 
     <style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
 
     /* Setting base line-height */
     body {
@@ -20,10 +26,10 @@
         padding: 0;
       }
       /* Ensure no margin on smaller screens */
-      @media screen and (max-width: 600px) {
+      @media screen and (max-device-width: 600px) {
         body {
-          margin: 0;
-          padding: 0; /* Reset padding just in case */
+          margin: 0 !important;
+          padding: 0 !important;
         }
       }
 

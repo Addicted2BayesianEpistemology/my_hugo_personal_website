@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Bruno Ursino</title>
-    <link>https://imbrunoursino.net/</link>
-    <description>Recent content on Bruno Ursino</description>
+    <title>Posts on Bruno Ursino</title>
+    <link>https://imbrunoursino.net/posts/</link>
+    <description>Recent content in Posts on Bruno Ursino</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en-us</language>
     <managingEditor>bruno.ursino@polimi.it</managingEditor>
     <webMaster>bruno.ursino@polimi.it</webMaster>
     <lastBuildDate>Tue, 11 Feb 2025 22:10:00 +0100</lastBuildDate>
-    <atom:link href="https://imbrunoursino.net/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imbrunoursino.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My 1st post</title>
       <link>https://imbrunoursino.net/posts/prova/</link>
       <pubDate>Tue, 11 Feb 2025 22:10:00 +0100</pubDate><author>bruno.ursino@polimi.it</author>
       <guid>https://imbrunoursino.net/posts/prova/</guid>
-      <description>Desc Text.</description>
-    </item>
-    <item>
-      <title>Prova project</title>
-      <link>https://imbrunoursino.net/projects/prova_project/</link>
-      <pubDate>Tue, 11 Feb 2025 22:10:00 +0100</pubDate><author>bruno.ursino@polimi.it</author>
-      <guid>https://imbrunoursino.net/projects/prova_project/</guid>
       <description>Desc Text.</description>
     </item>
   </channel>

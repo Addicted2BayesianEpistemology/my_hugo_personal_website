@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Bruno Ursino</title>
-    <link>https://imbrunoursino.net/categories/</link>
-    <description>Recent content in Categories on Bruno Ursino</description>
+    <title>First on Bruno Ursino</title>
+    <link>http://localhost:1313/tags/first/</link>
+    <description>Recent content in First on Bruno Ursino</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en-us</language>
     <managingEditor>bruno.ursino@polimi.it</managingEditor>
     <webMaster>bruno.ursino@polimi.it</webMaster>
-    <atom:link href="https://imbrunoursino.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/first/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

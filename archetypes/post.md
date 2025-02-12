@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Desc Text."
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://imbrunoursino.net/projects/new_post" # change this
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
